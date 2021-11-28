@@ -21,26 +21,9 @@ class MainActivity : ComponentActivity() {
                 Surface(
                     color = MaterialTheme.colors.background,
                 ) {
-                    Greeting()
+                    MyApp()
                 }
             }
         }
-    }
-}
-
-@Composable
-fun Greeting() {
-    Text(
-        text = "Hello Android!",
-    )
-}
-
-@Preview(
-    showBackground = true,
-)
-@Composable
-fun DefaultPreview() {
-    PackageManagerTheme {
-        Greeting()
     }
 }
